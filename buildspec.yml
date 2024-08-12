@@ -1,5 +1,8 @@
 version: 0.2
 
+install:
+  commands:
+    - curl -sSL https://dot.net/v1/dotnet-install.sh | bash /dev/stdin --channel 8.0 
 phases:
   build:
     commands:
